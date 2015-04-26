@@ -15,10 +15,34 @@ namespace Ejercicio_4_4_15
             this.peso15 = peso;
         }
 
-        public int peso15;
-        public int altura15;
-        public string colorOjos15;
-        public string colorPelo15;
+        private int peso15;
+
+        public int Peso15
+        {
+            get { return peso15; }
+            set { peso15 = value; }
+        }
+        private int altura15;
+
+        public int Altura15
+        {
+            get { return altura15; }
+            set { altura15 = value; }
+        }
+        private string colorOjos15;
+
+        public string ColorOjos15
+        {
+            get { return colorOjos15; }
+            set { colorOjos15 = value; }
+        }
+        private string colorPelo15;
+
+        public string ColorPelo15
+        {
+            get { return colorPelo15; }
+            set { colorPelo15 = value; }
+        }
 
         private bool lentillaValida;
         private bool pesoValido;
